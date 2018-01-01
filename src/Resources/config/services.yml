@@ -9,10 +9,10 @@ services:
             - { name: endroid.import.importer, importer: demo }
 
     endroid_import_demo.loader.employee:
-        class: Endroid\Import\Bundle\ImportDemoBundle\Loader\EmployeeLoader
+        class: Endroid\ImportDemoBundle\Loader\EmployeeLoader
 
     endroid_import_demo.loader.office:
-        class: Endroid\Import\Bundle\ImportDemoBundle\Loader\OfficeLoader
+        class: Endroid\ImportDemoBundle\Loader\OfficeLoader
 
     endroid_import_demo.loader.address:
-        class: Endroid\Import\Bundle\ImportDemoBundle\Loader\AddressLoader
+        class: Endroid\ImportDemoBundle\Loader\AddressLoader

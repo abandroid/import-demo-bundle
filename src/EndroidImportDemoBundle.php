@@ -7,7 +7,7 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Endroid\Import\Bundle\ImportDemoBundle;
+namespace Endroid\ImportDemoBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 

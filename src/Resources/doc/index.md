@@ -88,6 +88,6 @@ will be maintained during the process.
 endroid_data_sanitize:
     entities:
         office:
-            class: Endroid\Import\Bundle\ImportDemoBundle\Entity\Office
-            fields: [ 'id', 'name' ]
+            class: Endroid\ImportDemoBundle\Entity\Office
+            fields: ['id', 'name']
 ```

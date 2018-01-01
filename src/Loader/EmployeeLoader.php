@@ -7,7 +7,7 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Endroid\Import\Bundle\ImportDemoBundle\Loader;
+namespace Endroid\ImportDemoBundle\Loader;
 
 use Endroid\Import\Loader\AbstractLoader;
 use XmlIterator\XmlIterator;

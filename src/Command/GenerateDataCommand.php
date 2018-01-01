@@ -7,7 +7,7 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Endroid\Import\Bundle\ImportDemoBundle\Command;
+namespace Endroid\ImportDemoBundle\Command;
 
 use DOMDocument;
 use DOMElement;
