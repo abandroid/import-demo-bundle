@@ -94,19 +94,11 @@ class GenerateDataCommand extends Command
         file_put_contents(__DIR__.'/../Resources/data/'.$name.'_data.xml', $xmlString);
     }
 
-    /**
-     * @param DOMElement  $element
-     * @param DOMDocument $document
-     */
     protected function addOfficeFields(DOMElement $element, DomDocument $document)
     {
         $element->appendChild($document->createElement('location_id', rand(1, $this->count)));
     }
 
-    /**
-     * @param DOMElement  $element
-     * @param DOMDocument $document
-     */
     protected function addEmployeeFields(DOMElement $element, DomDocument $document)
     {
         $element->appendChild($document->createElement('location_id', rand(1, $this->count)));

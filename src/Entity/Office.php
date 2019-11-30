@@ -78,8 +78,6 @@ class Office
     }
 
     /**
-     * @param Address $address
-     *
      * @return $this
      */
     public function setAddress(Address $address)

@@ -98,8 +98,6 @@ class Employee
     }
 
     /**
-     * @param Office $office
-     *
      * @return $this
      */
     public function setOffice(Office $office)
