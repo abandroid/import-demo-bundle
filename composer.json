@@ -16,7 +16,11 @@
         "endroid/import-bundle": "^1.0"
     },
     "require-dev": {
-        "endroid/test": "dev-master"
+        "endroid/quality": "dev-master"
+    },
+    "suggest": {
+        "roave/security-advisories": "Avoids installation of package versions with vulnerabilities",
+        "symfony/security-checker": "Checks your composer.lock for vulnerabilities"
     },
     "autoload": {
         "psr-4": {
